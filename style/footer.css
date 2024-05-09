@@ -1,0 +1,9 @@
+.footer{
+  padding: 32px;
+}
+.footer .footer__rodape p{
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 0;
+  font-weight: 500;
+}
