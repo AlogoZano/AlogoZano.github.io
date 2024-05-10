@@ -41,6 +41,7 @@
 }
 .skills .skills__box ul .skills__img{
   padding-bottom: 12px;
+
 }
 .skills .skills__box ul .skills__name{
   font-weight: 700;
@@ -49,6 +50,8 @@
 }
 .icon__skills{
   fill: var(--color-primary-light);
+  width: 50px;
+  height: auto;
 }
 
 @media screen and (min-width:768px) {
