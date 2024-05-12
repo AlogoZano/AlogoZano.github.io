@@ -26,6 +26,8 @@
   height: 118px;
   min-width: 110px;
   box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.15);
+  margin-top: auto;
+  margin-bottom: 0;
 }
 .skills .skills__line .skills__box:hover{
   animation: big 0.4s both;
@@ -50,7 +52,25 @@
 }
 .icon__skills{
   fill: var(--color-primary-light);
-  width: 50px;
+  width: 60px;
+  height: auto;
+}
+
+.icon__skills_html{
+  fill: var(--color-primary-light);
+  width: 75px;
+  height: auto;
+}
+
+.icon__skills_CSS{
+  fill: var(--color-primary-light);
+  width: 58px;
+  height: auto;
+}
+
+.icon__skills_other{
+  fill: var(--color-primary-light);
+  width: 90px;
   height: auto;
 }
 

@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  margin: 0 70px;
 }
 .academic .academic__courses__box .academic__courses__list{
   margin: 0;
@@ -69,7 +70,10 @@
   }
   .academic .academic__courses{
     flex-direction: row;
-    justify-content: stretch;
+    
+    display: flex;
+    justify-content: center; 
+   
   }
   .academic .academic__courses .academic__courses__box{
     width: calc(33.33% - 8px);
