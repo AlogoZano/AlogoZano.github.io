@@ -51,7 +51,14 @@
   font-weight: 600;
   flex-wrap: wrap ;
   max-width: 400px;
+  margin-top: 10px;
 }
+
+.title .title__div .title__container .title__network_2{
+  display: block; /* Cambiar de inline a block para que aparezcan debajo */
+  margin-top: 20px;
+}
+
 .title .title__div .title__container .title__network li:hover{
   text-decoration: underline;
 }

@@ -6,17 +6,17 @@ coloque nas sessões indicadas*/
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-  --color-primary-light: #00ADB5;
-  --color-primary2-light: #02949b;
+  --color-primary-light: #B3A398;
+  --color-primary2-light: #B3A398; /*Botones*/
   --color-backone-dark: #393E46;
   --color-backtwo-dark: #222831;
-  --color-fontone-dark: #EEEEEE;
+  --color-fontone-dark: #ffffff; /*Logos chiquitos*/
   --color-fontone2-dark: #d6d6d6;
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-  --color-primary-light: #00ADB5;
-  --color-backone-light: #EFFFFD;
-  --color-backtwo-light: #d4fbf9;
-  --color-fontone-light: #4A3F35;
+  --color-primary-light: #B3A398;
+  --color-backone-light: #D7E4C0; /*Fondo claro (claro)*/
+  --color-backtwo-light: #BBC3A4; /*Fondo oscuro (claro)*/
+  --color-fontone-light: #4A3F35; /*Letra normal (claro)*/
   --color-fonttwo-light: #b5a7a7;
 
   --color-de-white: #ffffff;
@@ -95,6 +95,7 @@ a{
   background-color: var(--color-fontone2-dark);
   color: var(--color-backtwo-dark);
 }
+
 
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
