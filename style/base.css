@@ -11,7 +11,7 @@ coloque nas sessões indicadas*/
   --color-backone-dark: #393E46;
   --color-backtwo-dark: #222831;
   --color-fontone-dark: #ffffff; /*Logos chiquitos*/
-  --color-fontone2-dark: #d6d6d6;
+  --color-fontone2-dark: #ffffff;
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
   --color-primary-light: #B3A398;
   --color-backone-light: #D7E4C0; /*Fondo claro (claro)*/
@@ -46,14 +46,15 @@ a{
 .background__dark--soft{
   background-color: var(--color-backone-dark);
 }
-.todo .background__dark--hard{
+.background__dark--hard{
   background-color: var(--color-backtwo-dark);
 }
-.fuente__dark{
+
+.fuente.fuente__dark{
   color: var(--color-fontone-dark);
 }
 .backround__card{
-  background-color: var(--color-de-black);
+  background-color: var(--color-de-black) !important;
 }
 .icon__mode-dark{
   fill: var(--color-fontone-dark);
@@ -94,6 +95,13 @@ a{
 .formcontato .formcontato__contacto .formcontato__text .formcontato__form .btn__high:hover{
   background-color: var(--color-fontone2-dark);
   color: var(--color-backtwo-dark);
+}
+
+.skills__subtitle {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #333; /* Adjust depending on your color palette */
 }
 
 
